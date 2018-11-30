@@ -45,8 +45,8 @@ public class ProguardAction extends AnAction implements ClassItem.CheckListener,
 
     @Test
     public void initView() {
-//        getPackage();
-        testgetClass();
+        getPackage();
+//        testgetClass();
         jFrame = new JDialog();// 定义一个窗体Container container = getContentPane();
         jFrame.setModal(true);
         Container container = jFrame.getContentPane();
